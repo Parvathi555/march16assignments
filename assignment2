@@ -1,0 +1,21 @@
+s=input()
+l=list(s)
+x=[]
+k=[]
+h=[]
+for i in l:
+    x.append(int(i))
+for i in x:
+    if i%2==0:
+        k.append(i)
+    else:
+        h.append(i)
+for i in h:
+    print(i,end='')
+print(end=' ')
+for j in k:
+    print(j,end='')
+    
+    
+output:1234456
+       135 2446
